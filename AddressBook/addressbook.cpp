@@ -131,7 +131,7 @@ int main()
 {
     HashTable AddressBook;
 
-    cout << "Operation 1: Add intel to book." << endl;
+    cout << "Operation 1: Add info to book." << endl;
     if(AddressBook.isEmpty()) cout << "Address Book is empty." << endl;
     else cout << "Address Book has information!" << endl;
     AddressBook.insertItem(707, "Connor Whitaker");
@@ -142,13 +142,13 @@ int main()
     cout << "=========================================== \n" << endl;
 
 
-    cout << "Operation 2: replace intel already in book." << endl;
+    cout << "Operation 2: replace info already in book." << endl;
     AddressBook.insertItem(710, "Jimmy");
     AddressBook.printTable();
     cout << "=========================================== \n" << endl;
 
 
-    cout << "Operation 3: remove intel alreay in book & not in book." << endl;
+    cout << "Operation 3: remove info alreay in book & not in book." << endl;
     AddressBook.removeItem(710);
     AddressBook.removeItem(666);
 
@@ -157,7 +157,7 @@ int main()
     cout << "=========================================== \n" << endl;
 
 
-    cout << "Operation 4: search for intel in book." << endl;
+    cout << "Operation 4: search for info in book." << endl;
     AddressBook.searchTable(709);
     cout << "=========================================== \n" << endl;
 
